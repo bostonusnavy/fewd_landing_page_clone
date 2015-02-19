@@ -19,9 +19,11 @@ time, mark, audio, video {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-/**
- * HTML5 display-role reset for older browsers
- */
+
+/***********************************************
+ * HTML5 display-role reset for older browsers *
+ ***********************************************/
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -32,19 +34,24 @@ body {
 ol, ul {
     list-style: none;
 }
-/**
- * End of Reset
- */
-/**
- * Start of Custom Styles
- */
+
+/****************
+ * End of Reset *
+ ****************/
+
+/**************************************************************************/
+/**************************************************************************/
+
+/**************************
+ * Start of Custom Styles *
+ **************************/
 body {
     /*background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 div {
-    /*border: 1px solid Chocolate;*/
+    /* border: 1px solid Chocolate; */
 }
 .content {
     padding: 0 0.938rem;
@@ -55,9 +62,9 @@ div {
     outline: none;
 }
 
-/**
- * Navigation Section
- */
+/**********************
+ * Navigation Section *
+ **********************/
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -90,9 +97,9 @@ div {
     color: #333333;
 }
 
-/**
- * Introduction Section
- */
+/************************
+ * Introduction Section *
+ ************************/
 .introduction {
     background-image: url('../images/first-background.jpg');
     background-position: center bottom;
@@ -115,9 +122,9 @@ div {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
-/**
- * The buttons
- */
+/***************
+ * The buttons *
+ ***************/
 .introduction .buttons {
     color: white;
     text-align: center;
@@ -165,9 +172,9 @@ div {
     font-size: 1.313rem;
 }
 
-/**
- * Footer
- */
+/**********
+ * Footer *
+ **********/
 .social {
     background-color: #fff;
     overflow: auto;
@@ -207,9 +214,9 @@ div {
     color: #838994;
 }
 
-/**
- * Responsive Design
- */
+/*********************
+ * Responsive Design *
+ *********************/
 @media (min-width: 48rem) {
     .content {
         width: 46rem;
@@ -226,7 +233,9 @@ div {
     }
 }
 
-/* Chrome, Safari, Opera */ 
+/*********************************
+ * Chrome, Safari, Opera Webkits *
+ *********************************/
 @-webkit-keyframes bounce {
     0%, 100% {margin-top: 0px;}
     50% {margin-top: 2rem;}
@@ -238,9 +247,9 @@ div {
 }
 
 
-/**
- * button
- */
+/**********
+ * button *
+ **********/
 button {
     width: 9.688rem;
     background-color: #f15a29;
